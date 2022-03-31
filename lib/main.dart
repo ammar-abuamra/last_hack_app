@@ -24,12 +24,12 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
-          scaffoldBackgroundColor: Color(0xff232441),
+          scaffoldBackgroundColor: Colors.black54,
           appBarTheme: AppBarTheme(
               iconTheme: IconThemeData(
                 color: Color(0xff40D876),
               ),
-              color: Color(0xff232441),
+              color: Colors.black54,
               elevation: 0,
               titleTextStyle: TextStyle(
                   color: Color(0xff40D876), fontWeight: FontWeight.bold),

@@ -11,7 +11,7 @@ class WebService {
 
   Future<List<NewsArtical>> fetchTopheadline() async {
     String url =
-        "https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=68181cc216be48d7b50826d77825922d";
+        "https://newsapi.org/v2/everything?q=apple&from=2022-03-30&to=2022-03-30&sortBy=popularity&apiKey=68181cc216be48d7b50826d77825922d";
     final resbonse = await dio.get(url);
 
     if (resbonse.statusCode == 200) {
