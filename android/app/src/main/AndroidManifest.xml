@@ -2,8 +2,8 @@
     package="com.example.last_hack">
 
     <application
-        android:icon="@mipmap/ic_launcher"
-        android:label="last_hack">
+        android:icon="@mipmap/launcher_icon"
+        android:label="Last Hack">
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
